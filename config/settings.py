@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY ='django-insecure-8l8o(-2su$6t%k424293i#x672q0$*^itfyi9r32$8j-igo7zf'
+SECRET_KEY = 'django-insecure-8l8o(-2su$6t%k424293i#x672q0$*^itfyi9r32$8j-igo7zf'
 DEBUG = True
 ALLOWED_HOSTS = []
 INSTALLED_APPS = [
@@ -45,7 +45,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.postgresql',
-'NAME': 'projetodedados',
+'NAME': 'treinodjangoacad',
 'USER': 'postgres',
 'PASSWORD': '123456',
 'HOST': 'localhost',
@@ -54,7 +54,8 @@ DATABASES = {
 }
 AUTH_PASSWORD_VALIDATORS = [
 {
-'NAME':'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+'NAME':
+'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
 },
 {
 'NAME':
